@@ -11,4 +11,7 @@ describe('String#anagram') do
   it("If a word or phrase is an anagram, check if it's also a palindrome.") do
     expect(["Anna", "anna"].anagram()).to(eq('These words are palindromes.'))
   end
+  it("Add a rule to check if the inputs are words.A word must contain a vowel ") do
+    expect(["kgbt", "kite"].anagram()).to(eq("You need to input actual words!"))
+  end
 end
