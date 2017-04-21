@@ -14,8 +14,7 @@ The web application would take user inputs two words/sentences and check if they
 * Clone this repository to your computer
 * Install Ruby
 * Inside repository terminal, type "ruby app.rb"
-* Copy and the past http://localhost:4567/
-
+* Copy and the past http://localhost:4567 to the browsers
 
 
 ## Specifications
@@ -28,7 +27,7 @@ The web application would take user inputs two words/sentences and check if they
 | check if the inputs are words(contain a vowel) | kgbt, kite | not a word|
 | Check whether they are antigrams if phrases aren't anagrams | hi, bye | antigrams |
 | Check multiple words being anagrams and remove special characters | Misfortune, it's more fun | anagrams |
-| check if it's also a palindrome. | Evil olive, Evilo live | palindromes |
+| Check if it's also a palindrome. | Evil olive, Evilo live | palindromes |
 
 
 ## Technologies Used
