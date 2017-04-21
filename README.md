@@ -13,7 +13,7 @@ The web application would take user inputs two words/sentences and check if they
 * Clone this repository to your computer
 * Install Ruby
 * Inside repository terminal, type "ruby app.rb"
-* Copy and the past [this link](http://localhost:4567/)
+* Copy and the past http://localhost:4567/
 
 
 ## Specifications
@@ -21,6 +21,7 @@ The web application would take user inputs two words/sentences and check if they
 | Description | Input | Output |
 |-------------|-------|--------|
 | Check if two words are anagrams. | listen, silent | anagrams |
+| Check if two words are not anagrams. | hello, world | not anagrams |
 | Check if two words are case sensitive and anagrams | Tea, Eat | anagrams |
 | check if it's also a palindrome. | Anna, anna | palindromes |
 | check if the inputs are words(contain a vowel) | kgbt, kite | not a word|

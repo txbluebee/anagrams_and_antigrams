@@ -16,6 +16,8 @@ class Array
         'They are anagrams.'
       elsif !(first&second).any?()
         "These words have no letter matches and are antigrams."
+      else
+        "They are not anagrams."
       end
     else
       "You need to input actual words!"
