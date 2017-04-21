@@ -10,10 +10,12 @@ The web application would take user inputs two words/sentences and check if they
 
 ## Setup/Installation Requirements
 
+* Click [Heroku link](https://anagrams-and-antigrams.herokuapp.com/), or
 * Clone this repository to your computer
 * Install Ruby
 * Inside repository terminal, type "ruby app.rb"
 * Copy and the past http://localhost:4567/
+
 
 
 ## Specifications
