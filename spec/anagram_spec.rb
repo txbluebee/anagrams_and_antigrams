@@ -17,4 +17,7 @@ describe('String#anagram') do
   it('If phrases aren\'t anagrams, the method should check whether they are actually "antigrams."') do
     expect(["hi", "bye"].anagram()).to(eq("These words have no letter matches and are antigrams."))
   end
+  it('Account for multiple words being anagrams or "antigrams."') do
+    expect(["Misfortune", "it's more fun"].anagram()).to(eq("They are anagrams."))
+  end
 end

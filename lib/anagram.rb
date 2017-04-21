@@ -2,7 +2,7 @@ class Array
   define_method(:anagram) do
     letters_arr = []
     self.each() do |sentence|
-      sentence = sentence.downcase().split('')
+      sentence = sentence.gsub(/[.,' ]/,'').downcase().split('')
       letters_arr.push(sentence)
     end
     vowels = ["a","e","i","o","u","y"]
