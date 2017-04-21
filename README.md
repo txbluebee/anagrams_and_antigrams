@@ -23,10 +23,10 @@ The web application would take user inputs two words/sentences and check if they
 | Check if two words are anagrams. | listen, silent | anagrams |
 | Check if two words are not anagrams. | hello, world | not anagrams |
 | Check if two words are case sensitive and anagrams | Tea, Eat | anagrams |
-| check if it's also a palindrome. | Anna, anna | palindromes |
 | check if the inputs are words(contain a vowel) | kgbt, kite | not a word|
 | Check whether they are antigrams if phrases aren't anagrams | hi, bye | antigrams |
 | Check multiple words being anagrams and remove special characters | Misfortune, it's more fun | anagrams |
+| check if it's also a palindrome. | Evil olive, Evilo live | palindromes |
 
 
 ## Technologies Used
