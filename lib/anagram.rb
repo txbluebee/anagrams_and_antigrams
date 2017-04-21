@@ -1,7 +1,10 @@
 class Array
   define_method(:anagram?) do
-    first= self[0].split('').sort.join()
-    second= self[1].split('').sort.join()
-    first == second
+    new_arr = []
+    self.each() do |word|
+      word = word.downcase().split('').sort().join()
+      new_arr.push(word)
+    end
+    new_arr[0] == new_arr[1]
  end
 end
