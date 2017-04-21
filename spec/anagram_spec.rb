@@ -14,4 +14,7 @@ describe('String#anagram') do
   it("Add a rule to check if the inputs are words.A word must contain a vowel ") do
     expect(["kgbt", "kite"].anagram()).to(eq("You need to input actual words!"))
   end
+  it('If phrases aren\'t anagrams, the method should check whether they are actually "antigrams."') do
+    expect(["hi", "bye"].anagram()).to(eq("These words have no letter matches and are antigrams."))
+  end
 end

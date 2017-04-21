@@ -14,6 +14,8 @@ class Array
         'These words are palindromes.'
       elsif first.sort().join() == second.sort().join()
         'They are anagrams.'
+      elsif !(first&second).any?()
+        "These words have no letter matches and are antigrams."
       end
     else
       "You need to input actual words!"
