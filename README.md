@@ -32,20 +32,13 @@ The web application would take user inputs two words/sentences and check if they
 
 | Description | Input | Output |
 |-------------|-------|--------|
-| Check if two words are anagrams. | ["listen", "silent"] | true |
-| Check if two words are case sensitive and anagrams | ["Tea", "Eat"] | true |
-| Calculate cost for Pizza size and one topping | Small($3.25), cheese($1.19) | $4.44|
-| Calculate cost for Pizza size and multiple topping | Small($3.25), cheese($1.19), pepperoni($2.15) | $6.59|
-| Calculate cost for Pizza size, multiple topping and sauce  | Small($3.25), cheese($1.19), pepperoni($2.15), Italian Tomato Sauce($0.50) | $7.09|
-| Calculate cost for Pizza size, multiple topping ,sauce and dough | Small($3.25), cheese($1.19), pepperoni($2.15), Italian Tomato Sauce($0.50), Classic Dough($1) | $8.09|
+| Check if two words are anagrams. | "listen", "silent" | anagrams |
+| Check if two words are case sensitive and anagrams | "Tea", "Eat" | anagrams |
+| check if it's also a palindrome. | ["Anna", "anna"] | palindromes |
+| check if the inputs are words(contain a vowel) | "kgbt", "kite" | Not a word|
+| Check whether they are antigrams if phrases aren't anagrams | "hi", "bye" | antigrams |
+| Check multiple words being anagrams and remove special characters | "Misfortune", "it's more fun" | anagrams |
 
-## Known Bugs
-
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
-
-## Support and contact details
-
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
 
 ## Technologies Used
 
@@ -55,9 +48,7 @@ _CSS_
 
 _Bootstrap_
 
-_JavaScript_
-
-_jQuery_
+_Ruby_
 
 ### License
 
